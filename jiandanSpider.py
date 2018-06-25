@@ -10,7 +10,7 @@ headers = {
 
 
 def main():
-    brows = webdriver.Chrome('C:/Users/Administrator/Downloads/chromedriver_win32/chromedriver.exe')
+    brows = webdriver.PhantomJS('C:/Users/Administrator/Downloads/Compressed/phantomjs-2.1.1-windows/bin/phantomjs.exe')
     brows.get(targetUrl)
     while 1:
         src = brows.page_source
